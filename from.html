@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<input type="text" id="name" name="name">
 <style>
     body {
         background: white;
@@ -15,9 +16,13 @@
 
 
     }
+    input:focus, textarea:focus{
+        border-color: rgb(241, 7, 7);
+        color: rgba(214, 14, 214, 0.831);
+        cursor: pointer;
+    }
 </style>
 <body>
-    
     <h3>Contact Me</h3>
    <form action="submit.php" method="post">
       <label for="name">Name:</label>
