@@ -1,0 +1,31 @@
+/* Type selector */
+input {
+    background-color: #f0f8ff;
+}
+
+/* Class selector */
+.form-input {
+    border: 2px solid rgb(149, 168, 177);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* ID selector */
+#name {
+    border: 2px solid green;
+}
+
+/* Attribute selector */
+input[type="email"] {
+    background-color: #33322d;
+}
+
+/* Universal selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Descendant selector */
+body textarea {
+    color: #0f050f;
+}
